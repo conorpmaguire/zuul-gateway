@@ -1,0 +1,13 @@
+    ____                                           _____
+   / __ \   _____  ____    _  __   __  __         / ___/  ___    _____ _   __  ___    _____
+  / /_/ /  / ___/ / __ \  | |/_/  / / / /         \__ \  / _ \  / ___/| | / / / _ \  / ___/
+ / ____/  / /    / /_/ / _>  <   / /_/ /         ___/ / /  __/ / /    | |/ / /  __/ / /
+/_/      /_/     \____/ /_/|_|   \__, /         /____/  \___/ /_/     |___/  \___/ /_/
+                                /____/
+
+Proxy Server running on port: ${server.port}
+
+To test the server, simply append a mathematical expression, e.g. '12*12' to the URL.
+
+Example Usage:
+http://localhost:8080/resource/compute?expr=12*10
