@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableZuulProxy
 public class ProxyServer {
+
     public static void main(String[] args) {
         SpringApplication.run(ProxyServer.class, args);
     }
