@@ -10,6 +10,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * The is the resource server implementation which consists of a RESTful controller which
+ * accepts a mathematical expression as a request parameter. It will pass the supplied expression
+ * to the ComputationService for evaluation and return a result.
+ *
+ * @author Conor
+ */
 @SpringBootApplication
 @RestController
 public class ResourceServer {
@@ -20,9 +27,10 @@ public class ResourceServer {
     private ComputationService computationService;
 
     /**
-     * http://localhost:8090/compute?expr=2*3
+     * Handle the compute service
+     * Example usage: http://localhost:8090/compute?expr=2*3
      *
-     * @param expression
+     * @param expression - the maths expression for evaluation
      * @return a simple inteteger which represents the evaluated expression
      */
     @RequestMapping(value="/compute")

@@ -1,8 +1,9 @@
 package com.bloomburg.resource.exception;
 
 /**
- * Customized exception for bad expressions
+ * Customized exception for bad expressions. Potenially thrown by the ComputationService
  *
+ * @see com.bloomburg.resource.service.ComputationService
  * @author Conor
  */
 public class MalformedExpressionException extends RuntimeException {

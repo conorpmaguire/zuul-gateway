@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * Custom implementation of ZuulFilter
+ *
+ * @author Conor
  */
 public class ProxyServerFilter extends ZuulFilter {
 
